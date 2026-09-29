@@ -1,0 +1,9 @@
+{
+  "Oak Hill College": {
+    "classroom": ["desk", "podium", "whiteboard"],
+    "library": ["study desk", "computer terminal"]
+  },
+  "Dorm for Oak Hill College": {
+    "Abi's room": ["bed", "desk", "laptop"]
+  }
+}

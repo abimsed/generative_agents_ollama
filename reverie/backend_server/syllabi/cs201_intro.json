@@ -1,0 +1,199 @@
+{
+  "course_metadata": {
+    "institution": "University at Albany, State University of New York",
+    "department": "Department of Computer Science",
+    "course_numbers": ["ICSI 201-0001", "IECE 201-0001"],
+    "course_title": "Introduction to Computer Science",
+    "term": "Spring 2025",
+    "meeting_schedule": {
+      "lecture": "11:40 AM - 1:00 PM MW",
+      "lab": "Scheduled per student section"
+    },
+    "prerequisites": "No prerequisite; general mathematical knowledge and computer skills are recommended.",
+    "credit_exclusion": "Only one of IECE 200, IECE 141, and IECE/ICSI 201 may be taken for credit."
+  },
+  "grading_scheme": {
+    "weights_percentage": {
+      "projects_total": 55,
+      "project_01_to_04": "10% each",
+      "project_05": "15%",
+      "labs_average": 15,
+      "midterm_exam": 10,
+      "final_exam": 15,
+      "attendance_and_participation": 5
+    },
+    "grade_scale": {
+      "A": "93-100%",
+      "A_minus": "90-92%",
+      "B_plus": "87-89%",
+      "B": "83-86%",
+      "B_minus": "80-82%",
+      "C_plus": "77-79%",
+      "C": "73-76% (Minimum required for S grade under S/U option)",
+      "C_minus": "70-72%",
+      "D_plus": "67-69%",
+      "D": "63-66%",
+      "D_minus": "60-62%",
+      "E": "< 60%"
+    },
+    "negotiation_policy": "Final grades are strictly non-negotiable per department policy. Students may not submit extra work or be re-examined after completion of the course."
+  },
+  "course_policies": {
+    "late_submission_policy": "Work submitted within 24 hours after the deadline is considered late and receives an automatic 50% grade reduction. No submissions are accepted after this 24-hour window.",
+    "zero_credit_conditions": [
+      "Work is not submitted through the learning management platform (Brightspace).",
+      "Work is submitted past the 24-hour late cutoff window.",
+      "Work is improperly submitted (blurry, corrupted files, missing required documents, or incorrect formats).",
+      "Work is copied partially or fully from peers, previous students, or online sources."
+    ],
+    "grade_disputes": "Students have a strictly limited dispute window after grades are posted. Inquiries must be sent by email to the assigned grader with specific justifications. Late disputes are disregarded.",
+    "makeup_exam_policy": "Make-up exams are granted only for verified urgent emergencies (e.g., medical illness, accident). Students must notify within 24 hours and provide official documentation. Approved make-ups must be taken before the next class meeting.",
+    "attendance_and_participation": {
+      "percentage_of_grade": 5,
+      "tracking_method": "iClicker app required on phone or laptop for lectures and labs.",
+      "absence_tiers": {
+        "less_than_5_absences": "Full attendance credit (100%)",
+        "5_to_10_absences": "Calculated proportionally",
+        "more_than_10_absences": "Zero attendance credit (0%)"
+      },
+      "dispute_window": "Any attendance discrepancy must be resolved by the end of that same class meeting day."
+    },
+    "classroom_regulations": "Cell phones and other electronics must be turned off. Laptops are strictly restricted to note-taking only."
+  },
+  "academic_integrity": {
+    "collaboration_rules": "Students may verbally discuss problem concepts, but all submitted work, code, and documents must be original and written entirely individually.",
+    "penalties": {
+      "first_offense": "Automatic grade of zero on the assignment for both the student who copied and the student who shared work.",
+      "repeat_offense": "Automatic failing grade of 'E' for the entire course.",
+      "official_action": "Violations are formally documented via a Violation of Academic Integrity Report (VAIR) to the CS Department Chair, College Dean, and Vice Provost. Multiple violations lead to expulsion."
+    }
+  },
+  "toolchain_and_software": {
+    "programming_language": "Java (Java SE Development Kit / JDK 17 or JDK 21)",
+    "ide": "Eclipse IDE for Java Developers",
+    "uml_tools": ["Violet UML Editor (Windows)", "StarUML (Windows / macOS)"],
+    "course_platform": "Brightspace (Primary hub for submissions, announcements, and grades)",
+    "attendance_platform": "iClicker App",
+    "backup_mandate": "Students are required to keep daily local backups on portable drives. Hardware failures or crashed drives are explicitly rejected as valid excuses for late submissions."
+  },
+  "course_schedule": [
+    {
+      "week": 1,
+      "topic": "Course Overview & Introduction to Programming",
+      "textbook_chapters": "Chapter 1",
+      "sessions": [
+        "Course Info (1)",
+        "Introduction to Programming (2, 3)"
+      ]
+    },
+    {
+      "week": 2,
+      "topic": "Java Fundamentals",
+      "textbook_chapters": "Chapter 2",
+      "sessions": [
+        "Java Fundamentals (4, 5)",
+        "Java Fundamentals (6, 7)"
+      ]
+    },
+    {
+      "week": 3,
+      "topic": "Java Fundamentals & Decision Structures",
+      "textbook_chapters": "Chapters 2 & 3",
+      "sessions": [
+        "Java Fundamentals (8)",
+        "Decision Structures (9)"
+      ]
+    },
+    {
+      "week": 4,
+      "topic": "Decision Structures & Introduction to Loops and Files",
+      "textbook_chapters": "Chapters 3 & 4",
+      "sessions": [
+        "Decision Structures (10, 11)",
+        "Loops and Files (11)"
+      ]
+    },
+    {
+      "week": 5,
+      "topic": "Loops and Files",
+      "textbook_chapters": "Chapter 4",
+      "sessions": [
+        "Loops and Files (12, 13)"
+      ]
+    },
+    {
+      "week": 6,
+      "topic": "Arrays and the ArrayList Class",
+      "textbook_chapters": "Chapter 7",
+      "sessions": [
+        "Arrays and the ArrayList Class (13)",
+        "Arrays and the ArrayList Class (14)"
+      ]
+    },
+    {
+      "week": 7,
+      "topic": "Midterm Examination",
+      "textbook_chapters": "Tentative Chapter 15 review",
+      "sessions": [
+        "Midterm (tentative, 15)"
+      ]
+    },
+    {
+      "week": 8,
+      "topic": "Methods",
+      "textbook_chapters": "Chapter 5",
+      "sessions": [
+        "Methods (16)",
+        "Methods, Creating Classes (17)"
+      ]
+    },
+    {
+      "week": 9,
+      "topic": "Creating Classes & Text Processing",
+      "textbook_chapters": "Chapters 6, 8, and 9",
+      "sessions": [
+        "Creating Classes, Text processing (lab) (18, 19)"
+      ]
+    },
+    {
+      "week": 10,
+      "topic": "Creating Classes (Advanced)",
+      "textbook_chapters": "Chapters 6 & 8",
+      "sessions": [
+        "Creating Classes (20)"
+      ]
+    },
+    {
+      "week": 11,
+      "topic": "Inheritance",
+      "textbook_chapters": "Chapter 10",
+      "sessions": [
+        "Inheritance (21, 22)"
+      ]
+    },
+    {
+      "week": 12,
+      "topic": "Inheritance & Exceptions",
+      "textbook_chapters": "Chapters 10 & 11",
+      "sessions": [
+        "Inheritance, Exceptions (23, 24)"
+      ]
+    },
+    {
+      "week": 13,
+      "topic": "Exceptions and File I/O",
+      "textbook_chapters": "Chapter 11",
+      "sessions": [
+        "Exceptions (25, 26)"
+      ]
+    },
+    {
+      "week": 14,
+      "topic": "Course Synthesis & Review",
+      "textbook_chapters": "TBA",
+      "sessions": [
+        "TBA (27)"
+      ]
+    }
+  ]
+}

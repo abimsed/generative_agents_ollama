@@ -1,0 +1,106 @@
+[
+  {
+    "task_id": "w1_s1_clone",
+    "week": 1,
+    "module_topic": "Terminal, Shell & Environment Setup",
+    "assignment_title": "Lab 0: Toolchain & Local Environment",
+    "step_number": 1,
+    "instruction": "Open your terminal, run `git clone https://github.com/cs101/lab0-setup.git`, and run `cd lab0-setup` to enter the directory.",
+    "scaffolding_level": "high",
+    "ambiguity_score": 1,
+    "primary_cognitive_facet": "Computer Self-Efficacy",
+    "expected_friction": null,
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so I need to clone a Git repository... That sounds like a lot of technical jargon. I hope I don't mess this up. I'll just read the instruction carefully to make sure I understand what's expected of me.",
+        "perceived_difficulties": "The word 'clone' sounds like a complicated process. I'm not sure what that means or how it works. And what's with the HTTPS link? Is that safe? I don't want to accidentally download something malicious.",
+        "next_action": "Search online for what 'clone' means in the context of Git and see if I can find a simple explanation.",
+        "decision_rationale": "I'm choosing to search online because I'm not confident in my ability to execute the command correctly. I'd rather take the time to understand what's happening rather than risking making a mistake and having to start over. My self-efficacy is low in this situation, so I need to take a more cautious approach."
+      },
+      "Tim": {
+        "internal_monologue": "Okay, clone a Git repo? Sounds easy enough. I've done this before, right? Should be a breeze. I just need to open the terminal, type in the command, and voila! Easy peasy.",
+        "perceived_difficulties": "I'm not sure what's going on with this 'cd lab0-setup' part. Is that like a folder or something? And what's with the HTTPS? Sounds kinda secure, but also kinda scary. I hope I don't mess this up.",
+        "next_action": "Execute command",
+        "decision_rationale": "I'm feeling pretty confident here. I mean, I've cloned repos before, and it's always worked out. I'll just type in the command and see what happens. If it doesn't work, I can always try again or ask for help. But I'm pretty sure it'll be fine."
+      }
+    }
+  },
+  {
+    "task_id": "w1_s2_venv",
+    "week": 1,
+    "module_topic": "Terminal, Shell & Environment Setup",
+    "assignment_title": "Lab 0: Toolchain & Local Environment",
+    "step_number": 2,
+    "instruction": "Create an isolated virtual environment using `python3 -m venv .venv`. Activate it using the standard source command for your operating system shell.",
+    "scaffolding_level": "medium",
+    "ambiguity_score": 2,
+    "primary_cognitive_facet": "Prior Experience Assumption",
+    "expected_friction": null,
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so I need to create a virtual environment... That sounds like a big step. I don't want to mess up my main Python installation. I've heard of virtual environments before, but I've never actually set one up. I'll need to make sure I follow the instructions carefully. What if I do something wrong? What if I accidentally delete something important? Ugh, I don't like the feeling of uncertainty. But I also don't want to waste time figuring it out on my own. I'll just take it one step at a time and make sure I understand each part before moving on.",
+        "perceived_difficulties": "The command to activate the virtual environment, I'm not sure what that means. Is it a specific command I need to type? How do I know when it's activated? What if I accidentally activate it and mess up my main Python installation?",
+        "next_action": "Search documentation for instructions on how to activate a virtual environment.",
+        "decision_rationale": "I'm choosing to search for documentation because I don't feel confident in my ability to activate the virtual environment. I don't want to risk making a mistake and messing up my main Python installation. I'd rather take the time to understand how it works and do it correctly, even if it takes a little longer. My self-efficacy is low in this situation, and I don't want to feel like I've failed."
+      },
+      "Tim": {
+        "internal_monologue": "Hmm, 'standard source command'... sounds like a fancy way of saying 'type this in the terminal'. I'm pretty sure I can figure it out. I've used the terminal before, and I'm good with command lines. This should be easy.",
+        "perceived_difficulties": "I don't like the word 'standard' - it implies there's one 'right' way to do it. And what's with the '.venv' part? Is that a file or a folder? I'm not sure if I like the idea of creating a virtual environment. Is it like a sandbox or something?",
+        "next_action": "Execute command",
+        "decision_rationale": "I'm feeling confident about this. I've used the terminal before, and I'm sure I can figure out the source command. I'm not worried about making a mistake - I'll just blame the software creator if it doesn't work out. Besides, I want to see what this virtual environment thing is all about. It sounds like it could be cool."
+      }
+    }
+  },
+  {
+    "task_id": "w1_s3_pip_build_error",
+    "week": 1,
+    "module_topic": "Terminal, Shell & Environment Setup",
+    "assignment_title": "Lab 0: Toolchain & Local Environment",
+    "step_number": 3,
+    "instruction": "Run `pip install -r requirements.txt`. If you hit a wheel compilation failure or missing header flags, tweak your local build configuration flags until the build succeeds.",
+    "scaffolding_level": "none",
+    "ambiguity_score": 5,
+    "primary_cognitive_facet": "Risk Aversion",
+    "expected_friction": null,
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so I need to run this command to install dependencies... I've heard of pip before, it's like a package manager, right? I should be able to do this. But what if it doesn't work? What if I mess something up? Ugh, I don't like the sound of those wheel compilation failures... I hope I can tweak the build flags without messing it up too badly.",
+        "perceived_difficulties": "Wheel compilation failures, missing header flags... that sounds like a nightmare. I don't like the idea of messing with build flags, it's too technical. And what if I'm not doing it right? I don't want to waste time figuring it out.",
+        "next_action": "Search documentation for pip install to see if I can find any tips or warnings about wheel compilation failures.",
+        "decision_rationale": "I'm choosing to search documentation because I'm not confident in my ability to tweak build flags without messing it up. I'd rather be safe than sorry, and searching for help seems like a more reliable option than trying to figure it out on my own. Plus, I don't want to risk making things worse."
+      },
+      "Tim": {
+        "internal_monologue": "Hmm, wheel compilation failure? Sounds like a challenge! I'm sure I can figure it out. I've dealt with tricky accounting software before, this should be a breeze. I'll just tweak some flags and hope for the best.",
+        "perceived_difficulties": "Wheel compilation failure, missing header flags... sounds like a puzzle to solve. I like puzzles! But what if I mess it up? I don't want to bother the instructor with it. I'll just try to wing it and see what happens.",
+        "next_action": "Poke around settings, see if I can find any flags to tweak.",
+        "decision_rationale": "I'm feeling confident in my ability to fix this. I've got experience with tricky software, and I'm sure I can figure out what's going on. I'll just experiment and see what works. If it doesn't, I'll try again. I'm not going to let a little thing like a wheel compilation failure hold me back."
+      }
+    }
+  },
+  {
+    "task_id": "w1_s4_env_tweak",
+    "week": 1,
+    "module_topic": "Terminal, Shell & Environment Setup",
+    "assignment_title": "Lab 0: Toolchain & Local Environment",
+    "step_number": 4,
+    "instruction": "Poke around your shell configuration file (`.bashrc` or `.zshrc`) and export your PATH manually until the command `verify-setup` executes without returning exit code 127.",
+    "scaffolding_level": "low",
+    "ambiguity_score": 5,
+    "primary_cognitive_facet": "Tinkering vs. Process-Oriented",
+    "expected_friction": null,
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "I'm not sure what 'poke around' means in this context. Is it safe to edit my shell configuration file? I don't want to mess up my system. I'll need to be careful and make sure I understand what I'm doing before making any changes.",
+        "perceived_difficulties": "I'm not comfortable with the idea of manually exporting my PATH. What if I do it wrong? What if it causes problems with my system? I'll need to find some documentation or ask for help to make sure I do it correctly.",
+        "next_action": "Search documentation for 'bashrc' or 'zshrc' to understand how to configure the PATH manually.",
+        "decision_rationale": "I'm choosing to search for documentation because I'm risk-averse and don't want to make any changes that might cause problems. I'll take the time to understand how to do it correctly before proceeding, rather than trying to figure it out on my own."
+      },
+      "Tim": {
+        "internal_monologue": "Hmm, 'export your PATH manually'? Sounds like a challenge! I love tinkering with settings and figuring out how things work. I'm pretty sure I can figure this out on my own. I'll just poke around the config file and see what I can find.",
+        "perceived_difficulties": "I'm not sure what 'export' means in this context, but I'm willing to learn. The fact that it says 'manually' makes me think it's something I can figure out with some trial and error.",
+        "next_action": "Poke around the config file and search for 'PATH' to see what I need to do.",
+        "decision_rationale": "I'm feeling confident that I can figure this out because I've dealt with similar situations in the past. I'm not afraid to try new things and learn as I go. Plus, it's not like I'm going to break anything by messing around with my shell config. I'll just take my time and see what I can find."
+      }
+    }
+  }
+]

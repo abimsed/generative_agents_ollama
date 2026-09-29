@@ -1,0 +1,117 @@
+[
+  {
+    "section": "Course Overview & Prerequisites",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Wait, no prerequisites? That's a relief. I'm not exactly a tech whiz, and the thought of having to start from scratch was daunting. But what does 'general mathematical knowledge and computer skills' even mean? Are we talking basic algebra and word processing skills? I hope so, because I'm not exactly confident in my math skills. And what's with the credit exclusion policy? I don't want to take any more classes than I have to, but I also don't want to risk not getting credit for something I've already worked hard on. This is all a bit overwhelming.",
+        "perceived_concerns": "The lack of clear guidelines and expectations is making me a bit anxious. I like to know what I'm getting myself into, and this section is giving me a lot of 'what ifs'. Is the course going to be too theoretical? Will we be expected to learn a lot of new concepts quickly? I'm also worried about the lab section - I've never done any programming before, and the thought of trying to set up a computer lab is intimidating.",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I think I need to take a deep breath and try to calm down. I'll read the rest of the syllabus to see if there are any other sections that can help alleviate my concerns. Maybe there's a section on 'getting started' or 'tips for success' that can give me some reassurance."
+      },
+      "Tim": {
+        "internal_monologue": "Wait, no prerequisites? That's awesome! I'm so down for this course. I've never taken a formal computer programming course before, but I'm sure I can pick it up quickly. I mean, how hard can it be, right? I'm already good with numbers and formulas from accounting, so I'm feeling pretty confident about this.",
+        "perceived_concerns": "None, really. I'm just a bit curious about the lab section. Is it going to be a bunch of random stuff for us to play around with? And what's with the credit exclusion policy? I don't want to have to worry about messing up a course I want to take.",
+        "confidence_to_succeed": "High",
+        "immediate_next_step": "I'm going to go ahead and sign up for the lab section as soon as possible. I want to make sure I get a good spot and can get started on the course material as soon as possible."
+      }
+    }
+  },
+  {
+    "section": "Required Toolchain & Software",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so we're using Java? I've never programmed before, and I'm not sure if I'll be able to keep up. What if I get stuck? The fact that we're using Eclipse IDE makes me a bit more comfortable, I guess. But what's with the UML tools? I've never even heard of those before. And backup mandate? I don't want to lose my work, but I'm not sure if I can afford to carry around a portable drive. This all feels a bit overwhelming.",
+        "perceived_concerns": "The lack of prerequisites is a relief, but the amount of new information is still daunting. The backup mandate seems unfair, as I don't have the means to afford a portable drive. I'm also worried about the UML tools and the fact that we're using Java, which I've never used before.",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I think I need to do some more research on Java and Eclipse IDE to get a better understanding of what I'm getting into. I'll also look into the UML tools and try to find some tutorials or resources to help me get started."
+      },
+      "Tim": {
+        "internal_monologue": "Wait, no Java? I thought we were doing Java? Or is it just a suggestion? I'm so down for this course, but what if I don't know Java? I've played with Java before, but I've never actually programmed with it. Is this going to be a problem? I don't like the sound of having to use Eclipse, it looks so old. And what's with the backup mandate? I've never had a hardware failure before, but I guess that's not the point. The point is that I have to keep my own backups? That seems like a lot of work. I hope I can keep up with this.",
+        "perceived_concerns": "The requirement to use Java, the backup mandate, the use of Eclipse IDE",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "Try to find some resources online to learn Java, maybe watch some tutorials or videos to get a feel for it before the first day of class"
+      }
+    }
+  },
+  {
+    "section": "Grading Scheme & Project Weights",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so the grading scheme is pretty standard, I guess. I'm a bit worried about the projects, though. 55% of the grade is dedicated to them, and each project is worth 10% individually. That's a lot of pressure. I'm not sure if I'll be able to handle that kind of workload, especially since I've never done anything like this before. And what's with the 'no negotiating final grades' policy? That sounds really strict. I don't like the idea of not being able to appeal if I think there's been a mistake. It feels a bit unfair, to be honest.",
+        "perceived_concerns": "The emphasis on projects, the strict policy on final grades, the lack of flexibility in case of errors or mistakes",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I think I need to start looking into the course materials and resources more closely to get a better understanding of what's expected of me and how I can prepare for the projects."
+      },
+      "Tim": {
+        "internal_monologue": "Wait, no Java? I thought we were doing Java? Or is it just a suggestion? I'm so confused. I've never taken a computer programming course before, so I'm not sure what to expect. Is this a big deal? Will I be able to keep up? I'm really hoping this course will be okay, but this part is making me a bit nervous.",
+        "perceived_concerns": "The lack of a specific programming language and the emphasis on projects and labs. I'm not sure if I'm ready for that level of depth and complexity. What if I struggle with the projects? Will I be able to get the help I need?",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I think I need to go back and re-read the course overview and prerequisites to make sure I understand what's expected of me. I also want to look into the toolchain and software requirements to see if there's anything I can do to prepare myself."
+      }
+    }
+  },
+  {
+    "section": "Late Submission & Deadlines",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Okay, so there's a late policy? That's a bit strict, I guess. I don't want to risk getting a bad grade, but 24 hours is a pretty short window. What if I need more time to finish a project? Or what if I'm stuck and can't figure it out? I don't want to submit anything that's not perfect, but I also don't want to be penalized for it. This is making me a bit anxious about meeting deadlines.",
+        "perceived_concerns": [
+          "The 24-hour late cutoff window seems really tight.",
+          "I'm not sure what constitutes 'improperly submitted' work. Is it just about formatting or is there more to it?",
+          "I don't want to get caught copying anything from peers or online sources. That would be a disaster."
+        ],
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I'm going to try to review the course materials again and see if I can find any more information about what's expected of me in terms of formatting and submission guidelines."
+      },
+      "Tim": {
+        "internal_monologue": "Wait, what's with all these rules? It feels like they're trying to control every aspect of my learning experience. 'No submissions past the 24-hour window'? That's a pretty strict deadline. What if I'm stuck on a problem and can't finish it on time? And what's with the 'no submissions through Brightspace' rule? That's just another barrier to get in the way. I'm already feeling a bit overwhelmed with all the new software and tools we're supposed to use. This course is going to be a lot harder than I thought.",
+        "perceived_concerns": [
+          "Late policy seems too strict",
+          "Zero credit rules seem unfair and overly broad",
+          "Concerned about the impact of Brightspace on my learning experience"
+        ],
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "Try to find more information about the course and the instructors to see if they can provide any guidance or support"
+      }
+    }
+  },
+  {
+    "section": "Academic Dishonesty & Collaboration Rules",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Academic dishonesty? Collaboration rules? This feels really strict and unfair. What if I need help from a classmate? What if I don't understand something and ask for clarification? Is that cheating? I don't want to get in trouble or fail the course. This rule seems really harsh, especially the part about automatic failing grades. What if I make a mistake or don't understand something and ask for help? I'm already feeling really nervous about this course, and this just makes me feel more anxious.",
+        "perceived_concerns": "Automatic failing grades, lack of clarification on what constitutes 'verbal discussion', penalties for sharing work",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "Try to find more information about the course policies and expectations, maybe talk to the instructor or TA to clarify any doubts"
+      },
+      "Tim": {
+        "internal_monologue": "Wait, what's with all this 'no sharing' stuff? I'm used to working on projects with friends and online communities. I don't see the harm in discussing ideas or getting help from classmates. This feels like a lot of pressure to be perfect and original. Is it really that hard to come up with my own code? And what's with the automatic failing grade? That's a pretty harsh penalty. I've never been in trouble for academic dishonesty before, but I'm not sure I understand the rules well enough to avoid it. This is making me feel a bit anxious about succeeding in the course.",
+        "perceived_concerns": [
+          "The strict no-sharing policy feels unfair and restrictive.",
+          "The penalties for academic dishonesty seem too harsh.",
+          "I'm not sure I understand the rules well enough to avoid them.",
+          "I'm worried that I'll struggle to come up with my own code and ideas."
+        ],
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I'm going to try to read more about the course expectations and grading scheme to see if I can find any more information about the collaboration rules and penalties."
+      }
+    }
+  },
+  {
+    "section": "Attendance & Participation Policy",
+    "evaluations": {
+      "Abi": {
+        "internal_monologue": "Attendance and participation policy? That's a lot of pressure. I don't want to be penalized for missing a lecture or two. What if I have a valid reason for missing class? Will I be able to explain it? And what if I'm not feeling well? Will I be able to catch up on the material? I don't like the idea of being tracked by an app, it feels invasive. And what if I'm not good at using the app? Will that affect my attendance credit? I'm already feeling a bit anxious about this course, and now I'm worried about being penalized for something that's outside of my control.",
+        "perceived_concerns": "The tracking method, the absence tiers, the dispute window. I'm worried about being penalized for missing class, and I don't like the idea of being tracked by an app. I also don't like the fact that there's a dispute window, what if I don't agree with the attendance tracker? Will I be able to resolve the issue in a timely manner?",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "I'm going to make sure I understand the policy and the app requirements before the first class, so I can plan ahead and avoid any potential issues."
+      },
+      "Tim": {
+        "internal_monologue": "Attendance? Really? I'm a bit of a night owl and I'm used to playing video games or watching streams late at night. I'm not sure how I'll fit in with this iClicker app thing. Is it just a phone or laptop? Can I use my tablet? What if I forget to click it? Ugh, this feels like a lot of extra work.",
+        "perceived_concerns": "The attendance policy seems kinda strict. I don't want to get penalized for missing a lecture or two. What if I have a family emergency or something? Can I talk to the prof about it? And what's with the tiers? 5 absences? That's like, a normal week for me. I hope I don't get penalized for that.",
+        "confidence_to_succeed": "Low",
+        "immediate_next_step": "Try to find more info about the iClicker app and how it works. Maybe I can find some tutorials or something to help me get used to it."
+      }
+    }
+  }
+]

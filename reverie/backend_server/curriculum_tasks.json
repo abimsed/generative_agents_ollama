@@ -1,0 +1,51 @@
+[
+  {
+    "week": 1,
+    "module_topic": "Terminal, Shell & Environment Setup",
+    "assignment_title": "Lab 0: Toolchain & Local Environment",
+    "scenario_profile": "Tooling and System-Level Configuration Barriers",
+    "tasks": [
+      {
+        "task_id": "w1_s1_clone",
+        "step_number": 1,
+        "title": "Clone Git Repository",
+        "instruction": "Open your terminal, run `git clone https://github.com/cs101/lab0-setup.git`, and run `cd lab0-setup` to enter the directory.",
+        "scaffolding_level": "high",
+        "ambiguity_score": 1,
+        "primary_cognitive_facet": "Computer Self-Efficacy",
+        "evaluation_scenario": "Baseline syntax following with explicit terminal commands."
+      },
+      {
+        "task_id": "w1_s2_venv",
+        "step_number": 2,
+        "title": "Create and Activate Virtual Environment",
+        "instruction": "Create an isolated virtual environment using `python3 -m venv .venv`. Activate it using the standard source command for your operating system shell.",
+        "scaffolding_level": "medium",
+        "ambiguity_score": 2,
+        "primary_cognitive_facet": "Prior Experience Assumption",
+        "evaluation_scenario": "OS-dependent ambiguity (Windows PowerShell vs macOS/Linux zsh/bash syntax differences)."
+      },
+      {
+        "task_id": "w1_s3_pip_build_error",
+        "step_number": 3,
+        "title": "Install Dependencies with Native Build Tools",
+        "instruction": "Run `pip install -r requirements.txt`. If you hit a wheel compilation failure or missing header flags, tweak your local build configuration flags until the build succeeds.",
+        "scaffolding_level": "none",
+        "ambiguity_score": 5,
+        "primary_cognitive_facet": "Risk Aversion",
+        "evaluation_scenario": "Unguided system debugging; risk-averse personas fear corrupting system libraries."
+      },
+      {
+        "task_id": "w1_s4_env_tweak",
+        "step_number": 4,
+        "title": "Configure Global System PATH",
+        "instruction": "Poke around your shell configuration file (`.bashrc` or `.zshrc`) and export your PATH manually until the command `verify-setup` executes without returning exit code 127.",
+        "scaffolding_level": "low",
+        "ambiguity_score": 5,
+        "primary_cognitive_facet": "Tinkering vs. Process-Oriented",
+        "evaluation_scenario": "Inclusivity bug: encourages trial-and-error edits in critical root shell config files."
+      }
+    ]
+  }
+
+]
